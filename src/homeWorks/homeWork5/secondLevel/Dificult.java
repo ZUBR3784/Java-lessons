@@ -11,7 +11,7 @@ public class Dificult {
         int second = Integer.valueOf(str2);
         int res = first + second;
         System.out.println(res + 10);
-        
+
         ConvertEurToUsd conv = new ConvertEurToUsd();
 
     }

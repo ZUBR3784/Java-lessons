@@ -8,7 +8,7 @@ public class FirstLevel {
     }
     public static void firstPart(){
         String str1 = "I study Basic Java!";
-        char lastSimbol = str1.charAt(18);
+        char lastSimbol = str1.charAt(str1.length() -1);
         String str2 = "Java";
         boolean search = str1.contains(str2);
         String exchange = str1.replace('a','o');
@@ -22,6 +22,7 @@ public class FirstLevel {
 
         char g = 'g';
         int index = (int) g;
+
         System.out.println(lastSimbol + "\n" + search + "\n" + exchange + "\n" + higtRegistr + "\n" + lowRegistr + "\n" + trimed + "\n" + persent+ "\n" + index);
     }
 
