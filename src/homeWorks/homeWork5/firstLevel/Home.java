@@ -12,6 +12,6 @@ public class Home {
         this.length = length;
         this.color = color;
         this.room = room;
-        System.out.println(high + " " + width + " " + length + " " + color + " " + room);
+        System.out.println("Home:" + " high-" +high + " width-" + width + " length-" + length + " color-" + color + " rooms-" + room);
     }
 }
