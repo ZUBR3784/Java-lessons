@@ -1,4 +1,4 @@
-package homeWorks.homeWork5.firstLevel;
+package homeWorks.homeWork4.firstLevel;
 
 public class Home {
     int high = 0;

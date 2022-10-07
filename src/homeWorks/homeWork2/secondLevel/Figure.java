@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Figure {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
         System.out.print("Введите меньшую сторону прямоугольника:");
+
+        Scanner scan = new Scanner(System.in);
         int x = scan.nextInt();
         System.out.print("Введите большую сторону прямоугольника:");
         int y = scan.nextInt();

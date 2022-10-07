@@ -1,5 +1,4 @@
-package homeWorks.homeWork5.firstLevel;
-import homeWorks.homeWork2.easyLevel.FirstLevel;
+package homeWorks.homeWork4.firstLevel;
 
 import java.util.Scanner;
 public class Easy {
