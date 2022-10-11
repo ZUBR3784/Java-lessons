@@ -6,7 +6,7 @@ public class Coin {
     public static void main(String[] args) {
         Random rand = new Random();
         boolean eagleOrTails = rand.nextBoolean();
-        if (eagleOrTails == true) {
+        if (eagleOrTails) {
             System.out.println("Eagle");
         } else {
             System.out.println("Tails");

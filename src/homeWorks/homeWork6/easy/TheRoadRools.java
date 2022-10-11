@@ -10,15 +10,15 @@ public class TheRoadRools {
 
         Random typeOfCar = new Random();
         boolean typeCar = typeOfCar.nextBoolean();
-        if (typeCar == true){
+        if (typeCar){
             System.out.println("Your car is not lorry!") ;
         } else {
             System.out.println("Your car is lorry!" );
         }
 
-        if (typeCar == true && registerNumber%2==0){
+        if (typeCar && registerNumber%2==0){
             System.out.println("Your can entry!");
-        } else if (typeCar == true && registerNumber%2!=0){
+        } else if (typeCar && registerNumber%2!=0){
             System.out.println("Your can not entry, because № of your car is not suitable! Sorry.");
         }
         else if ((registerNumber % 2 == 0) & (typeCar == false)){

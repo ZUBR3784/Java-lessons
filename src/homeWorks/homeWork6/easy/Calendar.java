@@ -5,7 +5,7 @@ import java.util.Random;
 public class Calendar {
     public static void main(String[] args) {
         Random random = new Random();
-        int year = random.nextInt(2022) + 1940;
+        int year = random.nextInt(83) + 1940;
         double mat = (2020 - year) % 4;
         System.out.println(year);
         if (year>=2023) {

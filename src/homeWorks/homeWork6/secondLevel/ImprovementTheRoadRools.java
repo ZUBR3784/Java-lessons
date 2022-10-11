@@ -27,14 +27,14 @@ public class ImprovementTheRoadRools{
 
 
 
-        if (((typeCar == true) && (registerNumber%2==0) && (weekEnd == true)||((typeCar != true) && (registerNumber % 2 != 0) && (weekEnd != true))))
+        if (((typeCar) && (registerNumber%2==0) && (weekEnd )||((typeCar != true) && (registerNumber % 2 != 0) && (weekEnd != true))))
         {
             System.out.println("Your can entry!");
         }
-        else if ((typeCar == true) && (registerNumber %2 != 0) && (weekEnd == true) ||  (typeCar != true) && ( registerNumber %2 ==0) &&(weekEnd != true)) {
+        else if ((typeCar) && (registerNumber %2 != 0) && (weekEnd ) ||  (typeCar != true) && ( registerNumber %2 ==0) &&(weekEnd != true)) {
             System.out.println("Your can not entry today, because № of your car is not suitable! Sorry.Try in ather days.");
         }
-        else if ((registerNumber % 2 == 0) && (typeCar == false) && (weekEnd == true) || (registerNumber %2 != 0) && (typeCar ==true)&&(weekEnd != true)){
+        else if ((registerNumber % 2 == 0) && (typeCar == false) && (weekEnd == true) || (registerNumber %2 != 0) && (typeCar )&&(weekEnd != true)){
             System.out.println("Your can not entry, because type of your car not suitable! Sorry. Try in ather days.");
         }
         else {
@@ -42,10 +42,3 @@ public class ImprovementTheRoadRools{
         }
     }
 }
-
-
-
-//в том же городе Б решили доработать систему с пробками и решили усовершенствовать систему проезда в город,
-// теперь в выходные могут заезжать только легковые автомобили с четными номерами, а в будни все грузовые,
-// а так же машины с нечетными номерами. Напишите программу, которая принимает 3 параметра
-// isWeekend, isLorry, carNumber и пишет можно ли заезжать этой машине

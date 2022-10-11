@@ -4,11 +4,11 @@ import java.util.Random;
 
 public class Clock {
     public static void main(String[] args) {
-        Random sekund = new Random();
-        int sek = sekund.nextInt(28800);
-        System.out.println("Для тех, кто понимает в секундах: " + sek + "cek.");
-        int hour = sek / 360;
-        double min = sek % hour;
+        Random seсund = new Random();
+        int seс = seсund.nextInt(28800);
+        System.out.println("Для тех, кто понимает в секундах: " + seс + "cek.");
+        int hour = seс / 3600;
+        double min = seс % hour;
         System.out.println("Для тех, кто не понимает в секундах: " + hour + "ч. " + min + "мин.");
     }
 }
