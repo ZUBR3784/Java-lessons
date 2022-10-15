@@ -1,6 +1,4 @@
-package homeWorks.homeWork5.secondLevel;
-
-import java.util.Scanner;
+package homeWorks.homeWork4.firstLevel.secondLevel;
 
 public class Dificult {
 

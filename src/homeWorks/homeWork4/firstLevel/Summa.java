@@ -1,4 +1,4 @@
-package homeWorks.homeWork5.firstLevel;
+package homeWorks.homeWork4.firstLevel;
 
 import java.util.Scanner;
 

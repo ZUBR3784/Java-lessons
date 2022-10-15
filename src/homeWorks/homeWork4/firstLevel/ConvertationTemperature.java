@@ -1,8 +1,12 @@
-package homeWorks.homeWork5.firstLevel;
+package homeWorks.homeWork4.firstLevel;
 
 import java.util.Scanner;
 
 public class ConvertationTemperature {
+//    GradusConv convert =
+//    double toCels(double faren){
+//        return (faren - 32) / 1.8;
+//    }
     public ConvertationTemperature(){
         System.out.println("What is the temperature by Pharingate?:");
         Scanner temp = new Scanner(System.in);
