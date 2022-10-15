@@ -1,4 +1,4 @@
-package homeWorks.homeWork4.firstLevel.secondLevel;
+package homeWorks.homeWork4.secondLevel;
 
 public class Dificult {
 
