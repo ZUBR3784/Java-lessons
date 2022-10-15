@@ -9,8 +9,9 @@ public class Easy {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Write something:");
-        String str = scan.nextLine();
-        System.out.println(str.length());
+        String phrase = scan.nextLine();
+        System.out.println(phrase.length());
+
 
          String iLove = "I love";
          String java = " Java";
@@ -26,6 +27,7 @@ public class Easy {
 
 
     }
+
     static void main(String args){
     }
     static void main(char[] args){
