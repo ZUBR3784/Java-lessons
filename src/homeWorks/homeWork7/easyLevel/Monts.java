@@ -5,7 +5,7 @@ import java.util.Random;
 public class Monts {
     public static void main(String[] args) {
         Random x = new Random();
-        int num = x.nextInt(11) +1;
+        int num = x.nextInt(12) +1;
         System.out.println(num);
         switch (num){
             case 12, 1, 2:
