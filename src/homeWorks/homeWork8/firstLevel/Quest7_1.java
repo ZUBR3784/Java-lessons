@@ -2,7 +2,7 @@ package homeWorks.homeWork8.firstLevel;
 
 import java.util.Scanner;
 
-public class Quest_6_1 {
+public class Quest7_1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print( "Введите первый множитель: ");
