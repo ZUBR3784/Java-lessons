@@ -9,7 +9,6 @@ public class Quest3_2 {
         System.out.print("Введите число,факториал которого нужно вычислить: ");
         int fak = scan.nextInt();
         int n =1;
-        int res =0;
         for (int i = 1; i <=fak; i++) {
             n = n *i;
         }
