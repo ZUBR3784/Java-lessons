@@ -2,7 +2,7 @@ package homeWorks.homeWork8.secondtLevel;
 
 public class Quest4_2 {
     public static void main(String[] args) {
-        String str = "123";
+        String str = "456";
         int d =str.length();
         int sum =0;
 
@@ -10,7 +10,6 @@ public class Quest4_2 {
             char num = str.charAt(i);
             int transf =Integer.parseInt(String.valueOf(num));
             sum =sum + transf;
-
         }
         System.out.println(" Cумма этих цифр = "+sum);
 
