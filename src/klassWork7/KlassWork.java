@@ -1,34 +1,34 @@
-//package klassWork7;
+package klassWork7;
 
-//import java.util.Random;
-//import java.util.Scanner;
-//
-//public class KlassWork {
-//    public static void main(String[] args) {
+import java.util.Random;
+import java.util.Scanner;
+
+public class KlassWork {
+    public static void main(String[] args) {
 //        String str = "someString";
 //        Random random = new Random();
 //        System.out.println(random);
 //        if (str.equals("someString")){}
 //
-//        int month =10;
+        int month =10;
 
-//        switch (month) {
-//            case 1:
-//                System.out.println("Januar");
-//                break;
-//            case 2:
-//                System.out.println("Februar");
-//                break;
-//            case 4:
-//            case 5:
-//            case 6: System.out.println("Summer");
+        switch (month) {
+            case 1:
+                System.out.println("Januar");
+                break;
+            case 2:
+                System.out.println("Februar");
+                break;
+            case 4:
+            case 5:
+            case 6: System.out.println("Summer");
 //            case "august" -> 8;
-//            break;
-//            case 10:
-//                System.out.println("October");
-//            default:
-//                System.out.println("Change month!!");
-//        }
+            break;
+            case 10:
+                System.out.println("October");
+            default:
+                System.out.println("Change month!!");
+        }
 
 
 
@@ -47,12 +47,11 @@
 
 //        Random language = new Random();
 //        int languageCode2 = language.nextInt(4) + 1;
+//
 //        switch (languageCode2) {
-//            case 1:
-//                System.out.println("англ");
+//            case 1:System.out.println("англ");
 //                break;
-//            case 2:
-//                System.out.println("немецкий");
+//            case 2:System.out.println("немецкий");
 //                break;
 //            case 3:
 //                System.out.println("японский");
@@ -72,5 +71,5 @@
 ////                ? "second half of year"
 ////                : "first half of year";
 //
-//    }
-//}
+    }
+}
