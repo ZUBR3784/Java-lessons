@@ -6,9 +6,7 @@ public class Qest2_2 {
         int kolich = 0;
         for (int i = 0; i <=100; i++) {
             if (i%2 != 0) {
-                for (int j = 1; j <=1; j++) {
                     kolich++;
-                }
                 sum = sum+i;
             }
         }

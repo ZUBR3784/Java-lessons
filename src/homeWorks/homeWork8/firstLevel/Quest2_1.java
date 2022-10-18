@@ -1,12 +1,21 @@
 package homeWorks.homeWork8.firstLevel;
 
+import java.util.Scanner;
+
 public class Quest2_1 {
     public static void main(String[] args) {
-        for (int i = 10; i < 100; i++) {
-            if (i % 1 == 0 && i % i == 0 && i % 2 != 0 && i % 3 != 0 && i % 5 != 0 && i % 7 != 0) {
-                System.out.print(i);
+        Scanner scan = new Scanner(System.in);
+        int num = scan.nextInt();
+        int sum =0;
+        for (int i = 1; i <= num; i++) {
+            if (num % i == 0) {
+                sum++;
             }
-
+        }
+        if (sum == 2) {
+            System.out.print(num+ "- простое число");
+        } else{
+            System.out.print(num+ "- непростое число");
         }
     }
     }
