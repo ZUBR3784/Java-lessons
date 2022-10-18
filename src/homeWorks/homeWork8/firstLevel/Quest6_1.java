@@ -6,7 +6,6 @@ public class Quest6_1 {
         for (int i = 13; i <=100 ; i=i+13) {
             if ( i%2 !=0 ) {
            multi=multi * i;
-
             }
         }
         System.out.println(multi);
