@@ -1,4 +1,4 @@
-package klasswork;
+package klasswork.klasswork8;
 
 public class Quest {
     public static void main(String[] args) {

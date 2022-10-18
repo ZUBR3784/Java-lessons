@@ -1,7 +1,4 @@
-package klassWork7;
-
-import java.util.Random;
-import java.util.Scanner;
+package klasswork.klassWork7;
 
 public class KlassWork {
     public static void main(String[] args) {

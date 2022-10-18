@@ -1,4 +1,4 @@
-package klasswork;
+package klasswork.klasswork8;
 
 import java.util.Random;
 
