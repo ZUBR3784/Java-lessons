@@ -9,6 +9,7 @@ public class Klasswork11 {
 //        int[] documents = {12, 34, 65, 22};
 //        for (int i = 0; i < documents.length; i++) {
 //            System.out.println(documents[i]);
+//        System.out.println(array[2]);
 //        }
 //        System.out.println(documents[0]);
 //        System.out.println(documents[1]);

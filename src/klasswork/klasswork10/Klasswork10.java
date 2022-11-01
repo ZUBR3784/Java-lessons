@@ -107,13 +107,10 @@ public class Klasswork10 {
 
 
         //рисуем треугольник
-        int hight =10;
+        int hight =5;
         for (int i = 0; i <hight ; i++) {
-            for (int j = 0; j <hight -i ; j++) {
-                System.out.print(" ");
-            }
-            for (int j = 0; j <i*2 - 1 ; j++) {
-                System.out.print("*");
+            for (int j = 0; j <=hight-1  ; j++) {
+                System.out.print("+");
             }
             System.out.println("");
         }

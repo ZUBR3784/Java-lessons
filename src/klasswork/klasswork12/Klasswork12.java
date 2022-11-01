@@ -6,14 +6,14 @@ import java.util.Random;
 public class Klasswork12 {
     public static void main(String[] args) {
         //hw11
-//        int size =100;
-//        int bound =200;
-//        int[] arr = new int[size];
-//        Random random =new Random();
-//        for (int i = 0; i <size ; i++) {
-//            arr[i] = random.nextInt(bound);
-//        }
-//        System.out.println(Arrays.toString(arr));
+        int size =100;
+        int bound =200;
+        int[] arr = new int[size];
+        Random random =new Random();
+        for (int i = 0; i <size ; i++) {
+            arr[i] = random.nextInt(bound);
+        }
+        System.out.println(Arrays.toString(arr));
 //        for (int i = 0; i < arr.length; i++) {
 //            arr[i]=arr[i] * 2;
 //        }
@@ -137,12 +137,12 @@ public class Klasswork12 {
 //        msg=months.length>3?"yes":"no";//альтернатива!!!!
 
 
-        int[] first ={1,2,2,5,7,9,14,56,78};
-        int[] second ={1,4,5,6,8,26,66,98};
-        int[] result = new int[first.length + second.length];
-        int firstId =0;
-        int secondId =0;
-        int resInd=0;
+//        int[] first ={1,2,2,5,7,9,14,56,78};
+//        int[] second ={1,4,5,6,8,26,66,98};
+//        int[] result = new int[first.length + second.length];
+//        int firstId =0;
+//        int secondId =0;
+//        int resInd=0;
 //        while (firstId < first.length || secondId<second.length){
 ////            if (firstId == first.length || first[firstId]>= second[secondId]){
 ////                result[resInd]=second[secondId];
@@ -156,26 +156,26 @@ public class Klasswork12 {
 ////        System.out.println(Arrays.toString(result));
 
         //сортировка массивов
-        for (int i = 0; i <first.length; i++) {
-            result[i] = first[i];
-        }
-        for (int i = 0; i <second.length; i++) {
-            result[i + first.length] = second[i];
-        }
-        for (int i = 0; i <result.length-i; i++) {
-            int max = result[0];
-            int maxInd =0;
-            for (int j = 0; j <result.length; j++) {
-                if (result[j]> max) {
-                    max = result[j];
-                    maxInd =j;
-                }
-            }
-            int swapVal = result[result.length - i -1];
-            result[result.length - i -1] = result[maxInd];
-            result[maxInd] = swapVal;
-        }
-        System.out.println(Arrays.toString(result));
+//        for (int i = 0; i <first.length; i++) {
+//            result[i] = first[i];
+//        }
+//        for (int i = 0; i <second.length; i++) {
+//            result[i + first.length] = second[i];
+//        }
+//        for (int i = 0; i <result.length-i; i++) {
+//            int max = result[0];
+//            int maxInd =0;
+//            for (int j = 0; j <result.length; j++) {
+//                if (result[j]> max) {
+//                    max = result[j];
+//                    maxInd =j;
+//                }
+//            }
+//            int swapVal = result[result.length - i -1];
+//            result[result.length - i -1] = result[maxInd];
+//            result[maxInd] = swapVal;
+//        }
+//        System.out.println(Arrays.toString(result));
 
 
 
