@@ -24,9 +24,9 @@ public class Quest3_2 {
             int b =scan.nextInt();
             System.out.print("Введите длину 3-й стороны треугольника: ");
             int c =scan.nextInt();
-            int s = (a + b + c) / 2;
+            double s = (a + b + c) / 2.0;
             double area2 = Math.sqrt(s * (s - a) * (s - b) * (s - c));
-            System.out.println("Площадь прямоугольника = "+area2);
+            System.out.println("Площадь треугольника = "+area2);
 
         }else if (choice==3){
             System.out.print("Введите диаметр круга: ");
